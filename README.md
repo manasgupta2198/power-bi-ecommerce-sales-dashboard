@@ -4,19 +4,19 @@
 
 An interactive Power BI dashboard designed to analyze e-commerce sales performance, customer behavior, order activity, sales targets, sales-team performance, and geographic sales distribution.
 
-The project demonstrates an end-to-end Power BI workflow using **Power Query, data modeling, DAX, KPI design, and interactive visualizations**.
+The original Power BI dashboard visuals and outputs are preserved as-is. This repository update focuses on **clean project presentation and organization** rather than changing the dashboard itself.
 
 ---
 
 ## 🎯 Business Objectives
 
-- Monitor overall sales and order performance
+- Monitor sales and order performance
 - Analyze sales performance by country
-- Track sales targets and performance against targets
+- Track actual sales against targets
 - Evaluate sales-team performance
-- Understand order trends and customer behavior
+- Understand customer and order behavior
 - Identify high-performing markets and sales areas
-- Present business KPIs through an interactive dashboard
+- Present business KPIs through an interactive Power BI dashboard
 
 ---
 
@@ -30,51 +30,31 @@ The project demonstrates an end-to-end Power BI workflow using **Power Query, da
 
 ---
 
-## 📊 Dashboard Areas
+## 📊 Dashboard Coverage
 
-### 1. Sales Performance
+The existing dashboard covers:
 
-Provides an overview of sales performance and key business KPIs.
-
-### 2. Orders Analysis
-
-Analyzes order activity and helps identify patterns in order performance.
-
-### 3. Geographic Sales Analysis
-
-Uses country-level visualizations to understand where sales are being generated and compare market performance.
-
-### 4. Sales Target Analysis
-
-Compares actual sales performance with sales targets to support performance monitoring.
-
-### 5. Sales Team Analysis
-
-Provides a view of sales performance across the sales team and helps identify stronger and weaker contributors.
+- Sales performance and target tracking
+- Monthly order and sales trends
+- Sales by country
+- Sales by category
+- Sales-team and sales-manager performance
+- Customer distribution by country and gender
+- Customer age analysis
+- Order source analysis
+- Average order value analysis
+- Geographic sales views
+- Interactive filters for Sales Manager, Sales POC, Sales Team, and Order Date
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🖼️ Dashboard Screenshots
 
-### Sales & Orders
+All dashboard screenshots are organized under one dedicated **`Screenshots/`** folder instead of being presented as five separate sections in the main README.
 
-![Orders Analysis](orders.png)
+👉 **[Open the Dashboard Screenshots Gallery](Screenshots/README.md)**
 
-### Sales by Country
-
-![Sales by Country](sales_by_country.png)
-
-### Sales Target Performance
-
-![Sales Target](sales_target.png)
-
-### Sales Team Performance
-
-![Sales Team](sales_team.png)
-
-### Additional Country View
-
-![Sales by Country - Additional View](SM_sales_by_country.png)
+The screenshots are the original dashboard outputs. No visual, KPI, chart, filter, color, or dashboard calculation has been changed as part of this repository cleanup.
 
 ---
 
@@ -85,8 +65,8 @@ The dashboard is designed to answer questions such as:
 1. How is overall sales performance trending?
 2. Which countries contribute most to sales?
 3. How are actual sales performing against targets?
-4. Which members of the sales team are performing strongly?
-5. How does order activity vary across the business?
+4. Which sales teams and managers are performing strongly?
+5. How does order activity vary over time and by source?
 6. Which markets or sales areas may require additional attention?
 
 ---
@@ -117,28 +97,34 @@ The dashboard is designed to answer questions such as:
 ### Visualization
 
 - KPI cards
-- Charts
-- Geographic analysis
+- Trend charts
 - Target vs. actual analysis
+- Category analysis
+- Geographic analysis
 - Sales-team performance views
-- Interactive dashboard design
+- Interactive filters and dashboard navigation
 
 ---
 
-## 📁 Repository Contents
+## 📁 Repository Structure
 
 ```text
 power-bi-ecommerce-sales-dashboard/
 │
 ├── E Commerce Order.pbix
 ├── README.md
+│
+├── Screenshots/
+│   └── README.md
+│
 ├── orders.png
 ├── sales_by_country.png
 ├── SM_sales_by_country.png
 ├── sales_target.png
-├── sales_team.png
-└── Screenshots
+└── sales_team.png
 ```
+
+> The five original image files remain unchanged so the dashboard output is preserved. The `Screenshots/` folder acts as the single organized gallery/index for them.
 
 ---
 
@@ -146,16 +132,17 @@ power-bi-ecommerce-sales-dashboard/
 
 1. Download **E Commerce Order.pbix**.
 2. Open it using **Microsoft Power BI Desktop**.
-3. Review the data model, Power Query transformations, and DAX measures.
-4. Navigate through the dashboard pages and interact with the visuals and filters.
+3. Review the existing data model, Power Query transformations, DAX measures, and dashboard pages.
+4. Use the dashboard filters and visuals to explore the analysis.
+5. Open the **Screenshots** gallery to review the exported dashboard views.
 
-> Note: The `.pbix` file is included so recruiters and reviewers can inspect the Power BI implementation directly.
+> The `.pbix` file is included so recruiters and reviewers can inspect the Power BI implementation directly.
 
 ---
 
 ## 💼 Business Value
 
-This dashboard converts raw e-commerce data into an interactive reporting solution that can help stakeholders monitor sales performance, identify geographic opportunities, evaluate sales-team performance, and track progress against targets.
+This dashboard converts e-commerce data into an interactive reporting solution that can help stakeholders monitor sales performance, evaluate target achievement, compare markets, understand customer and order behavior, and review sales-team performance.
 
 ---
 
